@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Card from "./components/Card";
+import Menu from "./components/Menu"
 
 function App() {
   const student = {
@@ -16,6 +17,7 @@ function App() {
           <Card info={{ price: "24.99", storage: "1 TB" }}></Card>
           <Card info={{ price: "39.99", storage: "2 TB" }}></Card>
         </div>
+<Menu></Menu>
       </main>
     </>
   );
