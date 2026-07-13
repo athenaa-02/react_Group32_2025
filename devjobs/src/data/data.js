@@ -2,8 +2,8 @@ const jobs = [
   {
     id: 1,
     company: "Scoot",
-    logo: "./assets/logos/scoot.svg",
-    logoBackground: "hsl(36, 87%, 49%)",
+    logo: "/scoot.svg",
+    logoBackground: "#EA9310",
     position: "Senior Software Engineer",
     postedAt: "5h ago",
     contract: "Full Time",
@@ -36,8 +36,8 @@ const jobs = [
   {
     id: 2,
     company: "Blogr",
-    logo: "./assets/logos/blogr.svg",
-    logoBackground: "hsl(12, 79%, 52%)",
+    logo: "/blogr.svg",
+    logoBackground: "#E54B24",
     position: "Haskell and PureScript Dev",
     postedAt: "20h ago",
     contract: "Part Time",
@@ -70,8 +70,8 @@ const jobs = [
   {
     id: 3,
     company: "Vector",
-    logo: "./assets/logos/vector.svg",
-    logoBackground: "hsl(235, 10%, 23%)",
+    logo: "/vector.svg",
+    logoBackground: "#353641",
     position: "Midlevel Back End Engineer",
     postedAt: "1d ago",
     contract: "Part Time",
@@ -103,8 +103,8 @@ const jobs = [
   {
     id: 4,
     company: "Office Lite",
-    logo: "./assets/logos/officelite.svg",
-    logoBackground: "hsl(227, 62%, 48%)",
+    logo: "/officelite.svg",
+    logoBackground: "#2F4FC6",
     position: "Senior Application Engineer",
     postedAt: "2d ago",
     contract: "Full Time",
@@ -138,8 +138,8 @@ const jobs = [
   {
     id: 5,
     company: "Pod",
-    logo: "./assets/logos/pod.svg",
-    logoBackground: "hsl(216, 46%, 14%)",
+    logo: "/pod.svg",
+    logoBackground: "#132034",
     position: "Remote DevOps Engineer",
     postedAt: "2d ago",
     contract: "Part Time",
@@ -177,8 +177,8 @@ const jobs = [
   {
     id: 6,
     company: "Creative",
-    logo: "./assets/logos/creative.svg",
-    logoBackground: "hsl(295, 55%, 21%)",
+    logo: "/creative.svg",
+    logoBackground: "#4E1853",
     position: "Desktop Support Manager",
     postedAt: "4d ago",
     contract: "Part Time",
@@ -214,8 +214,8 @@ const jobs = [
   {
     id: 7,
     company: "Pomodoro",
-    logo: "./assets/logos/pomodoro.svg",
-    logoBackground: "hsl(254, 71%, 45%)",
+    logo: "/pomodoro.svg",
+    logoBackground: "#4721C4",
     position: "iOS Engineer",
     postedAt: "1w ago",
     contract: "Full Time",
@@ -248,8 +248,8 @@ const jobs = [
   {
     id: 8,
     company: "Maker",
-    logo: "./assets/logos/maker.svg",
-    logoBackground: "hsl(218, 58%, 31%)",
+    logo: "/maker.svg",
+    logoBackground: "#21437D",
     position: "Senior EJB Developer",
     postedAt: "1w ago",
     contract: "Full Time",
@@ -282,8 +282,8 @@ const jobs = [
   {
     id: 9,
     company: "Coffeeroasters",
-    logo: "./assets/logos/coffeeroasters.svg",
-    logoBackground: "hsl(29, 60%, 87%)",
+    logo: "/coffeeroasters.svg",
+    logoBackground: "#F2DDCA",
     position: "Senior Frontend Developer",
     postedAt: "1w ago",
     contract: "Part Time",
@@ -316,8 +316,8 @@ const jobs = [
   {
     id: 10,
     company: "Mastercraft",
-    logo: "./assets/logos/mastercraft.svg",
-    logoBackground: "hsl(0, 0%, 12%)",
+    logo: "/mastercraft.svg",
+    logoBackground: "#1F1F1F",
     position: "App & Website Designer",
     postedAt: "2w ago",
     contract: "Freelance",
@@ -352,8 +352,8 @@ const jobs = [
   {
     id: 11,
     company: "Crowdfund",
-    logo: "./assets/logos/crowdfund.svg",
-    logoBackground: "hsl(157, 57%, 50%)",
+    logo: "/crowdfund.svg",
+    logoBackground: "#37C890",
     position: "Fullstack Developer",
     postedAt: "1mo ago",
     contract: "Part Time",
@@ -388,8 +388,8 @@ const jobs = [
   {
     id: 12,
     company: "Typemaster",
-    logo: "./assets/logos/typemaster.svg",
-    logoBackground: "hsl(22, 89%, 52%)",
+    logo: "/typemaster.svg",
+    logoBackground: "#F26818",
     position: "Technical Lead Engineer",
     postedAt: "1mo ago",
     contract: "Part Time",
@@ -423,8 +423,8 @@ const jobs = [
   {
     id: 13,
     company: "Crowdfund",
-    logo: "./assets/logos/crowdfund.svg",
-    logoBackground: "hsl(157, 57%, 50%)",
+    logo: "/crowdfund.svg",
+    logoBackground: "#37C890",
     position: "Front-end Developer",
     postedAt: "1mo ago",
     contract: "Full Time",
@@ -458,8 +458,8 @@ const jobs = [
   {
     id: 14,
     company: "Coffeeroasters",
-    logo: "./assets/logos/coffeeroasters.svg",
-    logoBackground: "hsl(29, 60%, 87%)",
+    logo: "/coffeeroasters.svg",
+    logoBackground: "#F2DDCA",
     position: "Junior Full-Stack Developer",
     postedAt: "1mo ago",
     contract: "Full Time",
@@ -493,8 +493,8 @@ const jobs = [
   {
     id: 15,
     company: "Blogr",
-    logo: "./assets/logos/blogr.svg",
-    logoBackground: "hsl(12, 79%, 52%)",
+    logo: "/blogr.svg",
+    logoBackground: "#E54B24",
     position: "Midweight Front-end Developer",
     postedAt: "1mo ago",
     contract: "Full Time",
@@ -526,5 +526,4 @@ const jobs = [
   },
 ];
 
-
-export default jobs
+export default jobs;
