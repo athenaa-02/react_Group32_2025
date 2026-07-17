@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 function jobs() {
   return (
     <>
-      <Link to={"/jobdetails"}>
-        {data.map((job) => (
+      {data.map((job) => (
+        <Link to={`/jobdetails/${job.id}`}>
           <Card info={job}></Card>
-        ))}
-      </Link>
+        </Link>
+      ))}
     </>
   );
 }

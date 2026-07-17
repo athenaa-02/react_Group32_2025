@@ -2,7 +2,8 @@ import React from "react";
 // import blogsvg from ""
 
 function Card({ info }) {
-  console.log(info.logoBackground);
+
+  console.log(info.id);
   return (
     <>
       <div className="bg-white w-81.75 pl-8 pt-12.25 pb-8">
