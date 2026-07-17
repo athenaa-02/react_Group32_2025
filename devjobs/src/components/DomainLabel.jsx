@@ -7,7 +7,7 @@ function DomainLabel({url}) {
     const match = url.match(/\/([^/]+)\/?$/);
     return match ? `${match[1]}.com` : url;
   };
-  return <span>{extractDomain(url)}</span>
+  return <span className='text-[#6E8098]'>{extractDomain(url)}</span>
 }
 
 export default DomainLabel
